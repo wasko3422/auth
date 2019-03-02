@@ -1,0 +1,10 @@
+<h1>Hello there!</h1>
+{{if .}}
+    {{.Username}}
+    <br>
+    <a href="/logout">logout</a>
+    <a href="/romashka">romashka</a>
+{{else}}
+    <a href="/register">register</a>
+    <a href="/login">login</a>
+{{end}}
